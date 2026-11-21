@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Testing POM(failed)">
+    <classes>
+      <class name="Maven.POMProject.Tc1_LoginToAmazon">
+        <methods>
+          <include name="validcred"/>
+          <include name="quitBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- Maven.POMProject.Tc1_LoginToAmazon -->
+    </classes>
+  </test> <!-- Testing POM(failed) -->
+</suite> <!-- Failed suite [Smoke Suite] -->

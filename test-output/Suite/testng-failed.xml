@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Maven.POMProject.Tc2_LogoutToAmazon">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="validcredandlogout"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- Maven.POMProject.Tc2_LogoutToAmazon -->
+      <class name="Maven.POMProject.Tc3_SearchProduct">
+        <methods>
+          <include name="loginandsearchProduct"/>
+          <include name="quitBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- Maven.POMProject.Tc3_SearchProduct -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
